@@ -1,0 +1,69 @@
+header {
+  padding: 0px;
+  
+  }
+  .logo{
+  float: center;
+  }
+  
+  h1 {
+  
+  text-align:left;
+  }
+  
+  
+  .pokedex {
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+  }
+  
+ /* App.css */
+
+ .pokemon-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 800px; /* Set a maximum width */
+  margin: 10px auto; /* Center the container horizontally */
+}
+
+.pokemon {
+  width: 150px; /* Set the width of each Pokemon container */
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black; /* Add border around each Pokemon container */
+  border-radius: 8px;
+}
+
+.pokemon-img {
+  max-width: 100%; /* Adjust the max-width as needed */
+  height: auto; /* Maintain aspect ratio */
+  border: 2px solid black; /* Add border around each image */
+  border-radius: 8px; /* Add border radius to the image */
+  transition: transform 0.3s ease;
+}
+
+.pokemon-img:hover {
+  transform: scale(1.1);
+}
+
+.language-buttons {
+  display: flex;
+  justify-content: center; /* Center buttons horizontally */
+  margin-bottom: 10px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center; /* Center buttons horizontally */
+  margin-top: 20px; /* Add margin above pagination buttons */
+}
+
+.pagination button {
+  margin: 0 10px;
+  padding: 10px;
+  background-color: pink; /* Add spacing between buttons */
+}
